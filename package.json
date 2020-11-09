@@ -1,0 +1,18 @@
+{
+  "name": "neov60",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "James Milliman",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-if": "^3.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^4.0.1"
+  }
+}

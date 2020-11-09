@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+		<head>
+			<!-- <meta charset="UTF-8" /> -->
+
+			<meta http-equiv=“Content-Type” content=“text/html; charset=utf-8”/>	
+
+			<!--[if lt IE 9 ]>
+			    <script type="text/javascript">
+			        var IEElms = ['article', 'aside', 'header', 'main', 'nav', 'section'];
+			        for (var i = 0; i < IEElms.length; i++) {
+			            document.createElement(IEElms[i]);
+			        };
+			    </script>
+			    <script src="//{{ config.store_domain }}/static/scripts/respond/respond.1.4.2.js" charset="utf-8"></script>
+			<![endif]-->
+
+			<link href="{{ config.css_file }}" rel="stylesheet" media="all">
+
+			<link href='https://fonts.googleapis.com/css?family=Bad+Script|Paprika|Nunito|Merriweather+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+			
+<style type="text/css" >
+/* <![CDATA[ */
+/* Pulled from _http://www.napashaway.com/neov2-min.css */
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}*{margin:0;padding:0;border:0}a{text-decoration:none}.clrfix{clear:both}.body-blue{background-color:rgb(55, 131, 208)}h1{font-family:'Merriweather Sans', sans-serif;font-size:2em;text-align:center;color:rgb(75, 75, 75)}h2{font-family:'Merriweather Sans', sans-serif;font-size:1.75em;text-align:center;color:rgb(75, 75, 75)}h3{font-family:'Merriweather Sans', sans-serif;font-size:1.5em;text-align:center;color:rgb(75, 75, 75)}.banner{width:100%;height:115px;background-color:white}.banner__logo-img{display:block;width:100px;margin:0 auto}.banner__logo--left{float:left;width:43%}.banner__logo--center{float:left;width:14%;margin-top:10px}.banner__logo--right{float:left;width:43%}.neo-menu{display:none;font-family:'Nunito', sans-serif;font-size:1em;width:100%;background-color:white;border-bottom:solid rgb(200, 200, 200) 2px;z-index:100}.neo-menu__ul{list-style:none;width:815px;margin:0 auto}.neo-menu__ul ul{width:12em}.neo-menu__ul:before,.neo-menu__ul:after{content:" ";display:table}.neo-menu__ul:after{clear:both}.neo-menu__ul ul{list-style:none;width:12em}.neo-menu__ul a{padding:10px 15px;color:rgb(75, 75, 75)}.neo-menu__ul li{position:relative}.neo-menu__ul > li{float:left}.neo-menu__ul > li > a{display:block}.neo-menu__ul li ul{position:absolute;left:-9999px}.neo-menu__ul > li.hover > ul{left:0}.neo-menu__ul li li.hover ul{left:100%;top:0;top:-1px}.neo-menu__ul li li a{display:block;position:relative;z-index:100}.neo-menu__ul li li li a{z-index:100;color:rgb(225, 225, 225)}.neo-menu__ul li li{border-top:1px solid rgb(225, 225, 225)}.neo-menu__ul > li > a.parent:hover{border-bottom:1px solid rgb(225, 225, 225);padding-bottom:9px}.neo-menu__ul li:hover a{color:white;background-color:rgb(41, 81, 120)}.neo-menu__ul li li:hover a{color:white;background-color:rgb(41, 91, 140)}.neo-menu__ul li:hover li:hover li:hover a{background-color:rgb(81, 121, 160)}.neo-menu__ul li:hover li:hover li a{background-color:rgb(91, 101, 150)}.nav-policy-pages{width:100%;font-family:'Merriweather Sans', sans-serif;font-style:italic;font-size:.9em;line-height:2em;text-decoration:none;display:none;margin:0 0 35px 0;color:rgb(95, 95, 95)}.toggleMenu{display:none;font-family:'Karla', sans-serif;font-size:.9em;line-height:.9em;text-align:justify;color:rgb(75, 75, 75);background:white;padding:3px;margin:3px 0 3px 10px;border:solid rgb(21, 51, 80) 1px;border-radius:5px}.slidewrap{width:100%;margin:0 auto}.home-panel-1{width:100%;border-bottom:solid white 1px}.home-panel-2{background-color:white;border-top:solid white 1px}.home-panel-2--left{width:15%;float:left;background-color:rgb(21, 41, 80);padding:25px;box-shadow:inset 0 0 50px 20px rgb(55, 131, 208)}.home-panel-2--right{width:85%;height:300px;float:right;padding:25px 3% 0 3%;box-shadow:inset 0 0 40px rgba(0, 0, 0, .6)}.home-panel-3{border-top:solid white 1px;border-bottom:solid white 1px}.home-panel-3--center{width:75%;padding:60px 0;margin:0 auto}.home-panel-4{width:100%;background-color:white;border-bottom:solid white 1px}.home-panel-4--left{width:65%;height:300px;float:left;padding:25px;background-color:white;box-shadow:inset 0 0 30px rgba(0, 0, 0, .5)}.home-panel-4--right{width:35%;height:300px;padding:50px 0 0 0;float:right;background-color:white;box-shadow:inset 0 0 50px 50px rgb(120, 100, 125)}.store-wrap{width:90%;background-color:rgb(55, 131, 208);margin:0 auto;padding-bottom:75px}.page-wrap{width:90%;min-height:600px;background-color:rgb(55, 131, 208);margin:0 auto;padding-bottom:75px;z-index:0}.home-wrap{width:100%;background-color:rgb(55, 131, 208);margin:0 auto}.page-wrap__page-title{padding:35px 0 15px 0}.page-oils-wrap__page-title{width:70%;padding:35px 0 15px 0;margin-left:22%}.context-menu{display:block;width:150px;background-color:rgb(21, 51, 80);position:fixed;top:200px;padding:20px 0;margin-left:5%;border-radius:3px;box-shadow:10px 10px 3px rgb(60, 60, 60)}.header--vertical-margin{margin:25px 0}.header--bottom-margin{margin-bottom:25px}.article--large{width:75%;background-color:white;padding:25px 50px;margin:25px auto 75px auto;border-radius:5px;box-shadow:inset 0 0 150px rgba(0, 0, 0, .15)}.article--small{width:67%;background-color:white;position:relative;left:20%;padding:35px 50px;margin:25px 0 50px 0;border-radius:3px;box-shadow:inset 0 0 150px rgba(0, 0, 0, .2)}.article--vertical-offset{padding-top:125px}.callout-medium--center{width:65%;background-color:white;padding:25px;margin:50px auto;border:solid rgb(75, 110, 20) 1px;border-radius:20px 0 20px 0;box-shadow:inset 0 0 15px 10px rgb(75, 110, 20)}.callout-large--center{width:90%;background-color:white;padding:25px;margin:50px auto;border:solid rgb(75, 110, 20) 1px;border-radius:20px 0 20px 0;box-shadow:inset 0 0 15px 10px rgb(75, 110, 20)}.callout-small--left{width:44%;float:left;margin-left:3%;padding:25px;background-color:white;border:solid rgb(75, 110, 20) 1px;border-radius:20px 0 20px 0;box-shadow:inset 0 0 15px 10px rgb(75, 110, 20)}.callout-small--right{width:44%;float:right;margin-right:3%;background-color:white;padding:25px;border:solid rgb(75, 110, 20) 1px;border-radius:20px 0 20px 0;box-shadow:inset 0 0 15px 10px rgb(75, 110, 20)}.ul-disc{padding:15px 25px;list-style-type:disc;margin:10px auto}.ul-disc li{text-align:justify;margin-bottom:5px}.contact-us--left{padding:15px 0 0 0;margin:0 0 0 3%;float:left}.contact-us--right{width:35%;float:right;padding:15px 0 0 0}nav ul li .nav--onpage{color:rgb(125, 125, 125)}.search-container{width:100%;height:55px;float:right;padding-right:15px;background-color:white;border-bottom:solid rgb(200, 200, 200) 1px}.search-module{width:600px;height:45px;float:right;background-color:rgba(0, 0, 0, .01);border:solid rgb(21, 125, 250) 2px;border-radius:3px}.search-module input{font-family:'Merriweather Sans', sans-serif;font-size:.9em;line-height:1.35em;text-decoration:none}.search-module input[type="text"]{margin-right:100px}.search-form{padding:10px 0 0 5px}.search-button{width:6em;font-family:'Merriweather Sans', sans-serif;font-size:.9em;line-height:1.35em;text-align:center;background-color:rgb(225, 225, 225);margin-left:10px;border:solid rgb(200, 200, 200) 1px;border-radius:2px}.search-success{display:none}.search-fail{display:none}.search-icon{float:left;padding-top:5px}.button--inactive{color:rgb(180, 180, 180)}.button--active{color:rgb(18, 14, 4)}.hide-me{display:none}.show-me{display:block}.fc-contentContainer{margin:35px 0}nav.fc-sidecart-only-fixed .fc-fixed-button-left{display:none}.oil-family-links{display:none}.product-container{width:70%;background-color:white;padding:25px 20px;margin:50px 0 0 22%;border-radius:3px;box-shadow:inset 0 0 150px rgba(0, 0, 0, .15)}.product-img-container{width:150px;box-shadow:inset 0 0 95px 15px rgb(55, 131, 208);float:left;padding:10px 0 0 0;margin:5px 25px 10px 0;border-radius:5px}.herb-img-container{float:left;margin:5px 25px 10px 0;border-radius:5px}.round-img-container{float:left;margin:0 25px 0 0}.large-img-container{float:left;margin:10px 10%}.cart-wrap{width:100%;height:70px;margin:0 auto;margin-bottom:25px;border:solid black 1px}.cart-label-left{color:rgb(50, 50, 50)}.form-cartbutton{font-family:'Merriweather Sans', sans-serif;font-weight:bold;font-size:.9em;background-color:orange;color:white;border:none;padding:5px}.form-cartbutton:hover{background-color:rgb(245, 154, 48)}.form-addtocart{font-family:'Merriweather Sans', sans-serif;font-size:1em;float:right;margin:20px 15px 0 0}.form-qtyspin{width:50px;font-family:'Merriweather Sans', sans-serif;font-weight:bold;font-size:1em;margin-right:15px}.store-subnav-offset{padding-top:190px}.img-full-width{width:100%;display:block;margin:35px auto;border-radius:5px}.img-sidebar{display:block;width:40%;float:left;margin:0 25px 25px 0;border-radius:5px}.img-contact-us{display:block;width:100%;border-radius:3px}.img-bio-alaska{width:50%;display:block;position:relative;float:left;margin-right:25px;margin-bottom:25px;border-radius:5px}.img-breath{width:35%;display:block;float:right;margin-left:25px;margin-bottom:25px;border-radius:5px}.img-center{display:block;width:35%;margin:50px auto}.img-center-large{display:block;width:85%;margin:50px auto}.img-left{display:block;width:55%;float:left;margin:0 25px 25px 0}.img-right{display:block;width:55%;position:relative;float:right;margin:0 0 25px 25px}.img-ml5{height:200px;display:block;margin:0 auto;margin-top:12px;margin-bottom:20px}.img-basic{display:block;width:100%}.img-native-size{display:block;margin:0 auto}.img-herb{display:block;height:175px;margin:0 auto;border-radius:3px}.img-footer-logo-only{display:block;margin:0 auto;padding-top:25px}.img-product-large{height:250px;display:block;margin:15px auto}.img-product-round{height:150px;display:block;margin:0 auto}.img-full-width--flex{display:block;height:200px;margin:0 auto;border-radius:5px}.badscript{font-family:'Bad Script', cursive;font-size:1.25em;text-align:center;color:rgb(50, 50, 50)}.badscript-medium{font-family:'Bad Script', cursive;font-size:1.75em;text-align:center;color:rgb(50, 50, 50)}.badscript-large{font-family:'Bad Script', cursive;font-size:3em;text-align:center;color:rgb(50, 50, 50)}.ftext{font-family:'Merriweather Sans', sans-serif;font-size:.75em;line-height:1.5em;text-align:justify;text-decoration:none}.ftextnj1{font-family:'Merriweather Sans', sans-serif;font-size:1em;line-height:1.5;text-decoration:none}.ftextnj75{font-family:'Merriweather Sans', sans-serif;font-size:.75em;line-height:1.5em;text-decoration:none}.ftextnja{font-family:'Merriweather Sans', sans-serif;font-size:.9em;font-style:italic;line-height:1.5em;text-decoration:none}.kaushan-large{font-family:'Kaushan Script', cursive;font-size:4em;text-align:center;color:rgb(214, 251, 255)}.merriweather-large{font-family:'Merriweather Sans', sans-serif;font-size:1.5em;color:rgb(75, 75, 75);margin:15px 0}.neo-green{color:rgb(75, 109, 19)}.neo-blue{color:rgb(55, 131, 208)}.neo-orange{color:orange}.neo-darkorange{color:rgb(180, 90, 2)}.neo-red{color:red}.neo-white{color:rgb(220, 220, 220)}.paprika--left{font-family:'Paprika', cursive;font-size:2.75em;text-align:left;margin-top:25px}.paprika--right{font-family:'Paprika', cursive;font-size:2.75em;text-align:right;margin-top:25px}.ptext{font-family:'Karla', sans-serif;font-size:1em;line-height:1.65em;text-align:justify;text-decoration:none;color:rgb(75, 75, 75)}.ptext-first-char{font-family:'Karla', sans-serif;font-style:italic;font-size:2em;padding-right:3px;color:rgb(100, 100, 100)}.ptext-med{font-family:'Merriweather Sans', sans-serif;font-size:1.2em;line-height:1.65em;text-align:justify;text-decoration:none;color:rgb(50, 50, 50)}.ptext-med-fade{font-family:'Merriweather Sans', sans-serif;font-size:1.2em;line-height:1.65em;color:rgb(100, 100, 100);text-align:center;text-decoration:none}.ptext-no-just{font-family:'Merriweather Sans', sans-serif;font-size:1em;line-height:1.65em;color:rgb(75, 75, 75)}.ptext-center{font-family:'Merriweather Sans', sans-serif;font-size:1em;line-height:1.65em;display:block;text-decoration:none;color:rgb(95, 95, 95);text-align:center}.ptext-small{font-family:'Merriweather Sans', sans-serif;font-size:.9em;line-height:1.5em;display:block;text-align:justify;text-decoration:none;color:rgb(95, 95, 95)}.ptext-center-small{font-family:'Merriweather Sans', sans-serif;font-size:.9em;line-height:1.5em;display:block;text-decoration:none;color:rgb(95, 95, 95);text-align:center}.ptext-bold{font-family:'Merriweather Sans', sans-serif;font-size:.9em;font-weight:bold;color:rgb(75, 75, 75)}.ptext-product-name{font-family:'Merriweather Sans', sans-serif;font-size:1.1em;color:rgb(50, 50, 50);float:left;margin:22px 0 0 2%}.ptext-link{font-family:'Merriweather Sans', sans-serif;font-size:1em;font-style:italic;color:rgb(214, 251, 255);text-align:center;text-decoration:none;margin-top:25px}.ptext-page-title{font-family:'Merriweather Sans', sans-serif;font-size:2.5em;text-align:center;color:rgb(214, 251, 255)}.ptext-cmenu{font-family:'Merriweather Sans', sans-serif;font-size:1em;line-height:.9em;display:block;text-align:center;text-decoration:none}.ptext-italic{font-style:italic}.ptext-dim{color:rgb(180, 180, 180);text-align:center}.ptext-bright{color:white;text-align:center}.footer-logo-only{width:100%;margin:50px 0 100px 0;border-radius:3px}.footer-full{width:100%;min-width:768px;padding:35px 0;background-color:rgb(21, 51, 80);border-top:solid rgb(121, 151, 180) 1px;overflow:hidden;z-index:10}.footer-full__left{width:24%;float:left;margin:0 5% 0 2%}.footer-full__mid-left{width:12%;float:left;padding-top:35px;margin-right:2%}.footer-full__mid-logo{width:10%;float:left;margin-top:10px;text-align:center}.footer-full__logo-img{display:block;width:100%;height:auto;margin:0 auto}.footer-full__mid-right{width:12%;float:left;padding-top:35px;margin-left:2%}.footer-full__right{width:24%;float:left;margin:0 2% 0 5%}.footer-full__bottom-left{margin-left:2%;float:left}.footer-full__bottom-right{margin-right:2%;float:right}table{margin:0 auto}td:first-child{text-align:right;font-weight:bold}td:last-child{text-align:left;padding-left:.5em}.social{display:block;margin-top:25px;margin-left:15%}.social:hover{opacity:.6}.stuck{position:fixed;top:0}@media (min-width: 0px) and (max-width: 413px){.body-blue{min-width:320px}.article--large{width:90%;padding:15px 15px;margin:25px auto}h1{font-size:1.25em}h2{font-size:1.15em}h3{font-size:1.05em}.banner__responsive-menu{width:100%;background-color:white;z-index:100}.banner__responsive-menu.stuck{position:fixed;top:0}.banner{width:100%;height:60px;background-color:white}.banner__logo-img{display:block;width:50px;margin:0 auto}.banner__logo--left{float:left;width:41%;margin-right:2%}.banner__logo--center{float:left;width:14%;margin-top:5px}.banner__logo--right{float:left;width:40%;margin-left:3%}.active{display:block}.neo-menu{white-space:nowrap}.neo-menu.stuck{position:fixed;top:24px;width:100%}.neo-menu__ul{width:100%;background-color:rgb(41,81, 120);margin:0;overflow:auto}.neo-menu__ul ul{width:100%}.neo-menu__ul li a{background-color:rgb(41, 71, 100);color:white;border-top:1px solid rgb(200, 200, 200)}.neo-menu__ul li:hover a{background-color:rgb(71, 91, 130)}.neo-menu__ul li a.parent{background-color:rgb(41, 71, 100)}.neo-menu__ul li li a.parent{background-color:rgb(71, 91, 130)}.neo-menu__ul > li{float:none}.neo-menu__ul > li > .parent{background-image:url("https://napashaway.foxycart.com/cache.php?url=http://www.napashaway.com/_images/downArrow.png");background-repeat:no-repeat;background-position:95% 50%}.neo-menu__ul li li .parent{background-image:url("https://napashaway.foxycart.com/cache.php?url=http://www.napashaway.com/_images/downArrow.png");background-repeat:no-repeat;background-position:95% 50%}.neo-menu__ul > li.hover > ul,.neo-menu__ul li li.hover ul{position:static}.neo-menu__ul li ul li a{background-color:rgb(71, 91, 130);padding-left:2.5em}.neo-menu__ul li ul li ul li a,li ul li.hover li > a{background-color:rgb(91, 121, 150);padding-left:4em}.neo-menu__ul > li.hover > a{background-image:url("https://napashaway.foxycart.com/cache.php?url=http://www.napashaway.com/_images/upArrow.png");background-color:rgb(71, 91, 130)}.neo-menu__ul li ul li.hover > a{background-image:url("https://napashaway.foxycart.com/cache.php?url=http://www.napashaway.com/_images/upArrow.png");background-color:rgb(91, 121, 150)}.neo-menu__ul li.hover ul li.hover ul li > a{background-color:rgb(91, 121, 150)}.nav-policy-pages{display:block}.article--large{margin:25px auto 75px auto}.article--vertical-offset{padding-top:125px}.page-wrap{width:100%;padding-bottom:10px}.page-wrap__page-title{padding:25px 0 5px 0}.page-oils-wrap__page-title{width:90%;margin:0 auto;padding:25px 0 5px 0}.callout-small--left{width:90%;padding:15px;margin:0 5% 25px 5%;box-shadow:inset 0 0 10px 5px rgb(75, 110, 20)}.callout-small--right{width:90%;padding:15px;margin:0 5%;box-shadow:inset 0 0 10px 5px rgb(75, 110, 20)}.callout-medium--center{width:90%;padding:15px;margin:35px auto;box-shadow:inset 0 0 10px 5px rgb(75, 110, 20)}.contact-us--left{padding:0;margin:0;float:none}.contact-us--right{width:50%;float:none;padding-top:25px;margin:0 auto}.context-menu{display:none}.article--vertical-offset{padding-top:80px}.search-container{height:40px;float:none;padding:2px 0 0 0;border-bottom:none}.search-module{width:310px;height:35px;margin:0 5px 0 5px}.search-module input{font-size:.7em;line-height:1em}.search-module input[type="text"]{margin-right:5px}.search-form{padding:5px 0 0 5px}.search-button{width:3.5em;height:20px;margin-left:5px}.search-button.button{font-size:1em}.search-icon{display:none}form.search-form input.ptext-italic{width:190px}.home-panel-2--left{display:none;float:none}.home-panel-2--right{width:100%;height:350px;float:none}.home-panel-4--left{width:100%;height:350px;float:none}.home-panel-4--right{display:none;float:none}.oil-family-links{display:block}.product-container{width:90%;margin:0 auto 50px auto;margin:50px 0 0 0;position:static;margin:25px auto 0 auto}.cart-wrap{height:auto;color:rgb(50, 50, 50)}.cart-label-left{margin:0 0 15px 2%}.form-cartbutton{font-size:.7em;border:none;padding:3px;margin:0 0 15px 0}.form-addtocart{font-weight:normal;font-size:.7em;float:none}.form-qtyspin{margin:0 15px 5px 5px}.product-img-container{width:100px;float:none;padding:5px 0;margin:10px auto 25px auto}.round-img-container{float:none;margin-bottom:25px}.herb-img-container{width:100%;float:none;margin:10px auto 25px auto}.large-img-container{float:none;margin:0 auto}.img-breath{width:50%;margin:0 0 15px 25px}.img-center{width:65%}.img-ml5{width:52px;height:135px}.img-herb{height:135px}.img-product-large{height:135px}.img-product-round{height:90px}.badscript{font-size:1.1em}.badscript-large{font-size:2em}.kaushan-large{font-size:2em}.merriweather-large{font-size:1.1em}.paprika--left{font-size:1em;margin-top:18px}.paprika--right{font-size:1em;margin-top:18px}.ptext,.ptext-no-just,.ptext-center{font-size:.9em;line-height:1.5em;text-align:left}.ptext-med{font-size:1.1em;line-height:1.5em;color:rgb(75, 75, 75)}.ptext-page-title{font-size:1.25em}.ptext-product-name{font-size:.9em;float:none;margin:10px 0 0 2%}.ptext-bold{font-size:.8em}.ptext-center-small{font-size:.7em}.ptext-link{font-size:.9em}.ptext-small{text-align:left}.footer-full{min-width:320px;padding:25px 0 25px 0}.footer-full__left{display:none}.footer-full__mid-left{width:35%;padding:0;margin:0 0 0 5%}.footer-full__mid-logo{width:20%;margin-top:25px}.footer-full__logo-img{width:50px}.footer-full__mid-right{width:35%;float:right;text-align:right;padding:0;margin:0 5% 0 0}.footer-full__right{display:none}.footer-full__bottom-left{float:none;margin:25px 0 15px 5px}.footer-full__bottom-right{float:none;margin:10px 0 0 5px}}@media (min-width: 414px) and (max-width: 567px){.body-blue{min-width:414px}.article--large{width:90%;padding:15px 15px;margin:25px auto}h1{font-size:1.35em}h2{font-size:1.25em}h3{font-size:1.1em}.toggleMenu{font-size:1em;line-height:1em;margin:3px 0 5px 10px}.banner__responsive-menu{width:100%;background-color:white;z-index:100}.banner__responsive-menu.stuck{position:fixed;top:0}.banner{width:100%;height:70px;background-color:white}.banner__logo-img{display:block;width:60px;margin:0 auto}.banner__logo--left{float:left;width:41%;margin-right:2%}.banner__logo--center{float:left;width:14%;margin-top:5px}.banner__logo--right{float:left;width:41%;margin-left:2%}.active{display:block}.neo-menu{white-space:nowrap}.neo-menu.stuck{position:fixed;top:32px;width:100%}.neo-menu__ul{width:100%;background-color:rgb(41,81, 120);margin:0;overflow:auto}.neo-menu__ul ul{width:100%}.neo-menu__ul li a{background-color:rgb(41, 71, 100);color:white;border-top:1px solid rgb(200, 200, 200)}.neo-menu__ul li:hover a{background-color:rgb(71, 91, 130)}.neo-menu__ul li a.parent{background-color:rgb(41, 71, 100)}.neo-menu__ul li li a.parent{background-color:rgb(71, 91, 130)}.neo-menu__ul > li{float:none}.neo-menu__ul > li > .parent{background-image:url("https://napashaway.foxycart.com/cache.php?url=http://www.napashaway.com/_images/downArrow.png");background-repeat:no-repeat;background-position:95% 50%}.neo-menu__ul li li .parent{background-image:url("https://napashaway.foxycart.com/cache.php?url=http://www.napashaway.com/_images/downArrow.png");background-repeat:no-repeat;background-position:95% 50%}.neo-menu__ul > li.hover > ul,.neo-menu__ul li li.hover ul{position:static}.neo-menu__ul li ul li a{background-color:rgb(71, 91, 130);padding-left:2.5em}.neo-menu__ul li ul li ul li a,li ul li.hover li > a{background-color:rgb(91, 121, 150);padding-left:4em}.neo-menu__ul > li.hover > a{background-image:url("https://napashaway.foxycart.com/cache.php?url=http://www.napashaway.com/_images/upArrow.png");background-color:rgb(71, 91, 130)}.neo-menu__ul li ul li.hover > a{background-image:url("https://napashaway.foxycart.com/cache.php?url=http://www.napashaway.com/_images/upArrow.png");background-color:rgb(91, 121, 150)}.neo-menu__ul li.hover ul li.hover ul li > a{background-color:rgb(91, 121, 150)}.nav-policy-pages{display:block}.article--large{margin:25px auto 85px auto}.article--vertical-offset{padding-top:125px}.page-wrap{width:100%;padding-bottom:10px}.page-wrap__page-title{padding:25px 0 5px 0}.page-oils-wrap__page-title{width:90%;margin:0 auto;padding:25px 0 5px 0}.callout-small--left{width:90%;padding:15px;margin:0 5% 25px 5%;box-shadow:inset 0 0 10px 5px rgb(75, 110, 20)}.callout-small--right{width:90%;padding:15px;margin:0 5%;box-shadow:inset 0 0 10px 5px rgb(75, 110, 20)}.callout-medium--center{width:90%;padding:15px;margin:35px auto;box-shadow:inset 0 0 10px 5px rgb(75, 110, 20)}.contact-us--left{padding:0;margin:0}.contact-us--right{padding:0;margin:0;width:30%}.context-menu{display:none}.search-container{height:40px;float:none;padding:2px 0 0 0;border-bottom:none}.search-module{width:400px;height:35px;margin:0 5px 0 5px}.search-module input{font-size:.9em;line-height:1em;margin-right:5px}.search-module input[type="text"]{margin-right:5px}.search-form{padding:5px 0 0 5px}.search-button{width:3.5em;height:20px;margin-left:5px}.search-button.button{font-size:1em}.search-icon{display:none}.home-panel-2--left{display:none;float:none}.home-panel-2--right{width:100%;float:none}.home-panel-4--left{width:100%;height:320px;float:none}.home-panel-4--right{display:none;float:none}.oil-family-links{display:block}.product-container{width:90%;margin:50px 0 0 0;position:static;margin:25px auto 0 auto}.cart-wrap{height:auto;color:rgb(50, 50, 50)}.cart-label-left{margin:0 0 15px 2%}.form-cartbutton{font-size:.9em;border:none;padding:3px;margin:0 0 15px 0}.form-addtocart{font-weight:normal;font-size:.9em;float:none}.form-qtyspin{margin:0 25px 5px 5px}.product-img-container{width:110px}.img-breath{width:50%;margin:0 0 15px 25px}.img-center{width:50%}.img-ml5{height:150px;margin-top:10px;margin-bottom:10px}.img-herb{height:150px}.img-product-large{height:150px}.img-product-round{height:100px}.badscript{font-size:1.1em}.badscript-large{font-size:2em}.kaushan-large{font-size:2em}.merriweather-large{font-size:1.2em}.paprika--left{font-family:'Paprika', cursive;font-size:1.35em;text-align:left;margin-top:20px}.paprika--right{font-family:'Paprika', cursive;font-size:1.35em;text-align:right;margin-top:20px}.ptext,.ptext-no-just,.ptext-center{font-size:.9em;line-height:1.5em}.ptext-med{font-size:1.2em;line-height:1.5em}.ptext-page-title{font-size:1.35em}.ptext-bold{font-size:.8em}.ptext-product-name{font-size:1.2em;float:none;margin:10px 0 0 2%}.ptext-center-small{font-size:.8em}.footer-full{min-width:414px;padding:25px 0 25px 0}.footer-full__left{display:none}.footer-full__mid-left{width:30%;padding:0;margin:0 0 0 8%}.footer-full__mid-logo{width:24%;margin:0}.footer-full__logo-img{width:100px}.footer-full__mid-right{width:30%;float:right;text-align:right;padding:0;margin:0 8% 0 0}.footer-full__right{display:none}.footer-full__bottom-left{float:none;margin:25px 0 15px 5px}.footer-full__bottom-right{float:none;margin:10px 0 0 5px}}@media (min-width: 568px) and (max-width: 767px){.body-blue{min-width:568px}.article--large{width:90%;padding:15px 15px;margin:25px auto}h1{font-size:1.5em}h2{font-size:1.35em}h3{font-size:1.2em}.toggleMenu{font-size:1em;line-height:1em;margin:3px 0 5px 10px}.banner__responsive-menu{width:100%;background-color:white;z-index:100}.banner__responsive-menu.stuck{position:fixed;top:0}.banner{width:100%;height:80px;background-color:white}.banner__logo-img{display:block;width:75px;margin:0 auto}.banner__logo--left{float:left;width:41%;margin-right:2%}.banner__logo--center{float:left;width:14%;margin-top:5px}.banner__logo--right{float:left;width:41%;margin-left:2%}.active{display:block}.neo-menu{width:100%;font-size:1em;white-space:nowrap}.neo-menu.stuck{position:fixed;top:32px;width:100%}.neo-menu__ul{width:100%;background-color:rgb(41,81, 120);margin:0;overflow:auto}.neo-menu__ul ul{display:block;width:100%}.neo-menu__ul li a{background-color:rgb(41, 71, 100);color:white;border-top:1px solid rgb(200, 200, 200)}.neo-menu__ul li:hover a{background-color:rgb(71, 91, 130)}.neo-menu__ul li a.parent{background-color:rgb(41, 71, 100)}.neo-menu__ul li li a.parent{background-color:rgb(71, 91, 130)}.neo-menu__ul > li{float:none}.neo-menu__ul > li > .parent{background-image:url("https://napashaway.foxycart.com/cache.php?url=http://www.napashaway.com/_images/downArrow.png");background-repeat:no-repeat;background-position:95% 50%}.neo-menu__ul li li .parent{background-image:url("https://napashaway.foxycart.com/cache.php?url=http://www.napashaway.com/_images/downArrow.png");background-repeat:no-repeat;background-position:95% 50%}.neo-menu__ul > li.hover > ul,.neo-menu__ul li li.hover ul{position:static}.neo-menu__ul li ul li a{background-color:rgb(71, 91, 130);padding-left:2.5em}.neo-menu__ul li ul li ul li a,li ul li.hover li > a{background-color:rgb(91, 121, 150);padding-left:4em}.neo-menu__ul > li.hover > a{background-image:url("https://napashaway.foxycart.com/cache.php?url=http://www.napashaway.com/_images/upArrow.png");background-color:rgb(71, 91, 130)}.neo-menu__ul li ul li.hover > a{background-image:url("https://napashaway.foxycart.com/cache.php?url=http://www.napashaway.com/_images/upArrow.png");background-color:rgb(91, 121, 150)}.neo-menu__ul li.hover ul li.hover ul li > a{background-color:rgb(91, 121, 150)}.nav-policy-pages{display:block}.article--large{margin:25px auto 85px auto}.article--vertical-offset{padding-top:125px}.page-wrap{width:100%;padding-bottom:10px}.page-wrap__page-title{padding:25px 0 5px 0}.page-oils-wrap__page-title{width:90%;margin:0 auto;padding:25px 0 5px 0}.callout-small--left{width:90%;padding:25px;margin:0 5% 25px 5%;box-shadow:inset 0 0 10px 5px rgb(75, 110, 20)}.callout-small--right{width:90%;padding:25px;margin:0 5%;box-shadow:inset 0 0 10px 5px rgb(75, 110, 20)}.callout-medium--center{width:65%}.context-menu{display:none}.home-panel-2--left{display:none;float:none}.home-panel-2--right{width:100%;float:none}.home-panel-4--left{width:100%;float:none}.home-panel-4--right{display:none;float:none}.search-container{height:40px;float:none;padding:2px 0 0 0;border-bottom:none}.search-module{width:500px;height:35px;margin:0 5px 0 5px}.search-module input{font-size:.9em;line-height:1em;margin-right:5px}.search-module input[type="text"]{margin-right:85px}.search-form{padding:5px 0 0 5px}.search-button{width:3.5em;height:20px;margin-left:5px}.search-button.button{font-size:1em}.search-icon{height:25px;padding-top:3px}.oil-family-links{display:block}.product-container{width:90%;margin:0 auto 50px auto;margin:50px 0 0 0;position:static;margin:25px auto 0 auto}.cart-wrap{height:auto;color:rgb(50, 50, 50)}.cart-label-left{margin:0 0 15px 2%}.form-cartbutton{font-size:1em;border:none;padding:3px;margin:0 0 15px 0}.form-addtocart{font-weight:normal;font-size:1em;float:none}.form-qtyspin{margin:0 15px 5px 5px}.product-img-container{width:125px}.img-center{width:40%}.img-ml5{height:175px;margin-top:10px;margin-bottom:10px}.img-herb{height:175px}.img-product-large{height:175px}.img-product-round{height:125px}.badscript{font-size:1.1em}.badscript-large{font-size:2em}.kaushan-large{font-size:2.5em}.merriweather-large{font-size:1.2em}.paprika--left{font-family:'Paprika', cursive;font-size:1.5em;text-align:left;margin-top:24px}.paprika--right{font-family:'Paprika', cursive;font-size:1.5em;text-align:right;margin-top:22px}.ptext-page-title{font-size:1.5em}.ptext-cmenu{font-size:.8em;line-height:.7em}.ptext-product-name{font-size:1.2em;float:none;margin:10px 0 0 2%}.footer-full{width:100%;min-width:568px;padding:35px 0;background-color:rgb(21, 51, 80);border-top:solid rgb(121, 151, 180) 1px;overflow:hidden;z-index:10}.footer-full__left{width:24%;float:left;margin:0 5% 0 2%}.footer-full__mid-left{width:12%;float:left;padding-top:0;margin-right:2%}.footer-full__mid-logo{width:10%;float:left;margin-top:10px;text-align:center}.footer-full__logo-img{display:block;width:100%;height:auto;margin:0 auto}.footer-full__mid-right{width:12%;float:left;text-align:right;padding-top:0;margin-left:2%}.footer-full__right{width:24%;float:left;margin:0 2% 0 5%}.footer-full__bottom-left{margin-left:2%;float:left}.footer-full__bottom-right{margin-right:2%;float:right}}@media (min-width: 768px) and (max-width: 950px){.body-blue{min-width:768px}.article--large{width:90%;padding:25px 35px;margin:25px auto 50px auto}h1{font-size:1.75em}h2{font-size:1.5em}h3{font-size:1.25em}.neo-menu{font-size:.9em}.neo-menu__ul{width:756px}.banner__logo-img{width:90px}.context-menu{width:125px;margin-left:3%}.search-container{padding-right:5px}.search-module{width:500px}.search-module input[type="text"]{margin-right:40px}.home-panel-2--left{padding:60px 0}.home-panel-4--right{padding:60px 0 0 0}.store-subnav-offset{padding-top:150px}.cart-wrap{height:auto;color:rgb(50, 50, 50)}.cart-label-left{margin:0 0 15px 2%}.form-cartbutton{font-size:1em;border:none;padding:3px;margin:0 0 15px 0}.form-addtocart{font-weight:normal;font-size:1em;float:none}.form-qtyspin{margin:0 15px 5px 5px}.img-product-large{height:200px}.img-product-round{height:150px}.product-img-container{width:150px}.img-full-width--flex{height:180px}.img-native-size{height:180px}.badscript{font-size:1.1em}.badscript-large{font-size:2.25em}.kaushan-large{font-size:3.25em}.merriweather-large{font-size:1.2em}.paprika--left{font-size:1.8em;margin-top:35px}.paprika--right{font-size:1.8em;margin-top:35px}.ptext-page-title{font-size:2em}.ptext-cmenu{font-size:.8em;line-height:.7em}.ptext-product-name{font-size:1.2em;float:none;margin:10px 0 0 2%}.footer-full{padding:35px 0}.footer-full__mid-left,.footer-full__mid-right{padding-top:0}}.theme-default .nivoSlider{position:relative;background:#fff url(https://napashaway.foxycart.com/cache.php?url=http://www.napashaway.com/loading.gif) no-repeat 50% 50%}.theme-default .nivoSlider img{position:absolute;top:0;left:0;display:none}.theme-default .nivoSlider a{border:0;display:block}.theme-default .nivo-controlNav a{display:none;width:0;height:0;text-indent:-9999px;border:0;margin:0 2px}.theme-default .nivo-directionNav a{display:block;width:30px;height:30px;background:url(https://napashaway.foxycart.com/cache.php?url=http://www.napashaway.com/_images/arrows.png) no-repeat;text-indent:-9999px;border:0;opacity:0;-webkit-transition:all 200ms ease-in-out;-moz-transition:all 200ms ease-in-out;-o-transition:all 200ms ease-in-out;transition:all 200ms ease-in-out}.theme-default:hover .nivo-directionNav a{opacity:1}.theme-default a.nivo-nextNav{background-position:-30px 0;right:15px}.theme-default a.nivo-prevNav{left:15px}.theme-default .nivo-caption{font-family:Helvetica, Arial, sans-serif}.theme-default .nivo-caption a{color:#fff;border-bottom:1px dotted #fff}.theme-default .nivo-caption a:hover{color:#fff}.theme-default .nivo-controlNav.nivo-thumbs-enabled{width:100%}.theme-default .nivo-controlNav.nivo-thumbs-enabled a{width:auto;height:auto;background:none;margin-bottom:5px}.theme-default .nivo-controlNav.nivo-thumbs-enabled img{display:block;width:120px;height:auto}.nivoSlider{position:relative;width:100%;height:auto;overflow:hidden}.nivoSlider img{position:absolute;top:0px;left:0px;max-width:none}.nivo-main-image{display:block !important;position:relative !important;width:100% !important}.nivoSlider a.nivo-imageLink{position:absolute;top:0px;left:0px;width:100%;height:100%;border:0;padding:0;margin:0;z-index:6;display:none;background:white;filter:alpha(opacity=0);opacity:0}.nivo-slice{display:block;position:absolute;z-index:5;height:100%;top:0}.nivo-box{display:block;position:absolute;z-index:5;overflow:hidden}.nivo-box img{display:block}.nivo-caption{position:absolute;left:0px;bottom:0px;background:#000;color:#fff;width:100%;z-index:8;padding:5px 10px;opacity:0.8;overflow:hidden;display:none;-moz-opacity:0.8;filter:alpha(opacity=8);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.nivo-caption p{padding:5px;margin:0}.nivo-caption a{display:inline !important}.nivo-html-caption{display:none}.nivo-directionNav a{position:absolute;top:45%;z-index:9;cursor:pointer}.nivo-prevNav{left:0px}.nivo-nextNav{right:0px}.nivo-controlNav a{cursor:pointer}.nivo-controlNav a.active{font-weight:bold}
+/* ]]> */
+</style>
+
+			<!-- FC script insertion -->{{ fc_header_content|raw }}<!-- /FC script insertion -->
+
+			<title>Napasha Way</title>
+		</head>
+
+	<body class="body-blue">
+ 		<header class="banner">
+			<section class="banner__logo--left">
+				<p class="paprika--right">
+				Napasha Way
+				</p>
+			</section>
+		
+			<section class="banner__logo--center">
+				<img class="banner__logo-img" alt="Napasha Way Logo" src="https://napashaway.foxycart.com/cache.php?url=http://www.napashaway.com/_images/NEO_Logo_150.png"/>
+			</section>
+		
+			<section class="banner__logo--right">
+				<p class="paprika--left">
+				Essential Oils
+				</p>
+			</section>
+
+			<div class="clrfix"></div>
+		</header>
+
+		<div class="banner__responsive-menu">
+			<a class="toggleMenu" href="#">Menu</a>
+		</div>
+
+		<nav class="neo-menu">
+			<ul class="neo-menu__ul">
+			  <li><a href="http://www.napashaway.com/index.html">Home</a></li>
+
+				<li><a href="http://www.napashaway.com/oils.html">Store</a></li>
+			</ul>
+		</nav>
+			
+<!--		<div id="fc" class="fc-contentContainer"> -->
+
+			<div id="fc" class="fc-contentContainer">
+				{% include 'svg.inc.twig' %}
+ 
+ 				{% import "utils.inc.twig" as utils %}
+ 				{% embed 'checkout.inc.twig' %}
+ 				{% endembed %}
+			</div>
+
+<!--		</div> -->
+
+		
+<script type="text/javascript" charset="utf-8">
+/* <![CDATA[ */
+/* Pulled from _http://www.napashaway.com/_scripts/neov2.js */
+
+
+var ww = document.body.clientWidth;
+var breakPoint = 768;
+
+$(document).ready(function() {
+	$(".neo-menu__ul li a").each(function() {
+		if ($(this).next().length > 0) {
+			$(this).addClass("parent");
+		};
+	})
+
+	adjustMenu();
+
+	$(".neo-menu").css("display", "block");
+
+	var sticky = new Waypoint.Sticky({element: $('.banner__responsive-menu')});
+	var sticky = new Waypoint.Sticky({element: $('.neo-menu')});
+
+});
+
+
+
+// rmenu-script.js
+
+
+	$(".toggleMenu").click(function(e) {
+		e.preventDefault();
+		$(this).toggleClass("active");
+		$(".neo-menu__ul").toggle();
+
+		var toggleState = document.getElementsByClassName('neo-menu__ul');
+		var nMenuOffset = $(".neo-menu").offset().top;
+		var winPosition = $(window).scrollTop();
+		var winHeight = $(window).height();
+		var menuHeight = 0;
+		var navHeight = 0;
+
+		if (toggleState[0].style.display == 'none') {
+ 			$(".toggleMenu").css("background-color", "white");
+			$(".toggleMenu").css("color", "rgb(75, 75, 75)");
+			$(".neo-menu__ul li").removeClass("hover");
+			$("body").css("overflow", "visible");
+		} else {
+			$(".toggleMenu").css("background-color", "rgb(41, 71, 100)");
+			$(".toggleMenu").css("color", "white");
+			$("body").css("overflow", "hidden");
+			$(".neo-menu__ul").css("height", "");
+
+			toggleState[0].scrollTop = 0;
+
+			menuHeight = (winHeight - (nMenuOffset - winPosition));
+			navHeight = $(".neo-menu__ul").innerHeight();
+
+			if (navHeight < menuHeight) {
+				$(".neo-menu__ul").css("height", navHeight);
+			} else {
+				$(".neo-menu__ul").css("height", menuHeight);
+			}
+		}
+	});
+
+
+$("ul.neo-menu__ul li").click(function(n) {
+
+	if (ww <= breakPoint) {
+
+		event.stopPropagation();
+
+		var nElement = n.target.className;
+  	var nMenuOffset = $(".neo-menu").offset().top;
+		var winPosition = $(window).scrollTop();
+		var winHeight = $(window).height();
+		var menuHeight = 0;
+		var navHeight = 0;
+		var navOffset = $(".neo-menu__ul").scrollTop();
+
+
+  	if (nElement.search("parent") === -1) {
+			$("body").css("overflow", "visible");
+  		$(".neo-menu__ul li").removeClass("hover");
+			$(".neo-menu__ul").toggle();
+			$(".toggleMenu").css("background-color", "white");
+			$(".toggleMenu").css("color", "rgb(75, 75, 75)");
+  	} else {
+  	 	$(".neo-menu__ul").css("height", ""); // don't want the height from *.css
+
+			navHeight = $(".neo-menu__ul").innerHeight();
+			menuHeight = (winHeight - (nMenuOffset - winPosition));
+
+			if (navHeight < menuHeight) {
+				$(".neo-menu__ul").css("height", navHeight);
+			} else {
+				$(".neo-menu__ul").css("height", menuHeight);
+			}
+
+			$(".neo-menu__ul").scrollTop(navOffset);  // anchor menu when opening a parent
+
+  	}
+
+	} // if ww <= breakPoint
+
+});
+
+
+
+$(window).bind('resize orientationchange', function() {
+	ww = document.body.clientWidth;
+	adjustMenu();
+});
+
+
+
+var adjustMenu = function() {
+	if (ww < breakPoint) {
+		$(".toggleMenu").css("display", "inline-block");
+		if (!$(".toggleMenu").hasClass("active")) {
+			$(".neo-menu__ul").hide();
+		} else {
+			$(".neo-menu__ul").show();
+		}
+		$(".neo-menu__ul li").unbind('mouseenter mouseleave');
+		$(".neo-menu__ul li a.parent").unbind('click').bind('click', function(e) {
+			// must be attached to anchor element to prevent bubbling
+			e.preventDefault();
+			$(this).parent("li").toggleClass("hover");
+		});
+	} 
+	else if (ww >= breakPoint) {
+		$(".toggleMenu").css("display", "none");
+		$(".neo-menu__ul").show();
+		$(".neo-menu__ul li").removeClass("hover");
+		$(".neo-menu__ul li a").unbind('click');
+		$(".neo-menu__ul li").unbind('mouseenter mouseleave').bind('mouseenter mouseleave', function() {
+		 	// must be attached to li so that mouseleave is not triggered when hover over submenu
+		 	$(this).toggleClass('hover');
+		});
+	}
+}
+
+// end rmenu-script.js
+
+
+
+
+
+
+// neo functions
+
+function hideSearchPanel() {
+  $(".search-fail").css({"display":"none"});
+  $(".search-container").slideToggle('fast');
+  return false;
+}
+
+
+function findElement(stringToSearch) {  
+  if (stringToSearch != "") {
+
+    var inDiv = document.getElementsByClassName("product-container");
+    var counter = 0;
+    var sstr = "";
+    var oneMatch = false;
+
+    resetElements(false);
+
+    for (counter=0; counter<inDiv.length; ++counter) {
+
+      sstr = inDiv[counter].innerHTML;
+
+       if (sstr.toLowerCase().search(stringToSearch.toLowerCase()) === -1) {
+          inDiv[counter].classList.add("hide-me");
+       } else {
+          oneMatch = true;
+       }
+
+    }
+
+    if (oneMatch) {
+      $(".search-fail").css({"display":"none"});
+      $(".button--inactive").css({"color":"black"});
+      $(".search-success").css({"display":"block"});
+      //window.scrollTo(0, 0);
+    } else {
+      $(".search-success").css({"display":"none"});
+      $(".search-fail").css({"display":"block"});
+      $(".button--inactive").css({"color":"black"});
+    }
+
+  } // if (stringToSearch != "")
+
+} // function findElement(stringToSearch)
+
+
+function resetElements(wipeNSText) {
+    var inDiv = document.getElementsByClassName("product-container");
+    var counter = 0;
+
+    $(".button--inactive").css({"color":"rgb(180, 180, 180)"});
+    $(".search-fail").css({"display":"none"});
+    $(".search-success").css({"display":"none"});
+
+    for (counter=0; counter<inDiv.length; ++counter) {
+      inDiv[counter].classList.remove("hide-me");
+    }
+
+    if (wipeNSText) {
+      document.getElementsByClassName("ptext-italic")[0].value = "";
+    }
+}
+
+
+// end neo functions
+
+
+
+
+
+
+/* begin frameworks */
+
+
+
+/*!
+Waypoints - 3.1.1
+Copyright © 2011-2015 Caleb Troughton
+Licensed under the MIT license.
+https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
+*/
+(function() {
+  'use strict'
+
+  var keyCounter = 0
+  var allWaypoints = {}
+
+  /* http://imakewebthings.com/waypoints/api/waypoint */
+  function Waypoint(options) {
+    if (!options) {
+      throw new Error('No options passed to Waypoint constructor')
+    }
+    if (!options.element) {
+      throw new Error('No element option passed to Waypoint constructor')
+    }
+    if (!options.handler) {
+      throw new Error('No handler option passed to Waypoint constructor')
+    }
+
+    this.key = 'waypoint-' + keyCounter
+    this.options = Waypoint.Adapter.extend({}, Waypoint.defaults, options)
+    this.element = this.options.element
+    this.adapter = new Waypoint.Adapter(this.element)
+    this.callback = options.handler
+    this.axis = this.options.horizontal ? 'horizontal' : 'vertical'
+    this.enabled = this.options.enabled
+    this.triggerPoint = null
+    this.group = Waypoint.Group.findOrCreate({
+      name: this.options.group,
+      axis: this.axis
+    })
+    this.context = Waypoint.Context.findOrCreateByElement(this.options.context)
+
+    if (Waypoint.offsetAliases[this.options.offset]) {
+      this.options.offset = Waypoint.offsetAliases[this.options.offset]
+    }
+    this.group.add(this)
+    this.context.add(this)
+    allWaypoints[this.key] = this
+    keyCounter += 1
+  }
+
+  /* Private */
+  Waypoint.prototype.queueTrigger = function(direction) {
+    this.group.queueTrigger(this, direction)
+  }
+
+  /* Private */
+  Waypoint.prototype.trigger = function(args) {
+    if (!this.enabled) {
+      return
+    }
+    if (this.callback) {
+      this.callback.apply(this, args)
+    }
+  }
+
+  /* Public */
+  /* http://imakewebthings.com/waypoints/api/destroy */
+  Waypoint.prototype.destroy = function() {
+    this.context.remove(this)
+    this.group.remove(this)
+    delete allWaypoints[this.key]
+  }
+
+  /* Public */
+  /* http://imakewebthings.com/waypoints/api/disable */
+  Waypoint.prototype.disable = function() {
+    this.enabled = false
+    return this
+  }
+
+  /* Public */
+  /* http://imakewebthings.com/waypoints/api/enable */
+  Waypoint.prototype.enable = function() {
+    this.context.refresh()
+    this.enabled = true
+    return this
+  }
+
+  /* Public */
+  /* http://imakewebthings.com/waypoints/api/next */
+  Waypoint.prototype.next = function() {
+    return this.group.next(this)
+  }
+
+  /* Public */
+  /* http://imakewebthings.com/waypoints/api/previous */
+  Waypoint.prototype.previous = function() {
+    return this.group.previous(this)
+  }
+
+  /* Private */
+  Waypoint.invokeAll = function(method) {
+    var allWaypointsArray = []
+    for (var waypointKey in allWaypoints) {
+      allWaypointsArray.push(allWaypoints[waypointKey])
+    }
+    for (var i = 0, end = allWaypointsArray.length; i < end; i++) {
+      allWaypointsArray[i][method]()
+    }
+  }
+
+  /* Public */
+  /* http://imakewebthings.com/waypoints/api/destroy-all */
+  Waypoint.destroyAll = function() {
+    Waypoint.invokeAll('destroy')
+  }
+
+  /* Public */
+  /* http://imakewebthings.com/waypoints/api/disable-all */
+  Waypoint.disableAll = function() {
+    Waypoint.invokeAll('disable')
+  }
+
+  /* Public */
+  /* http://imakewebthings.com/waypoints/api/enable-all */
+  Waypoint.enableAll = function() {
+    Waypoint.invokeAll('enable')
+  }
+
+  /* Public */
+  /* http://imakewebthings.com/waypoints/api/refresh-all */
+  Waypoint.refreshAll = function() {
+    Waypoint.Context.refreshAll()
+  }
+
+  /* Public */
+  /* http://imakewebthings.com/waypoints/api/viewport-height */
+  Waypoint.viewportHeight = function() {
+    return window.innerHeight || document.documentElement.clientHeight
+  }
+
+  /* Public */
+  /* http://imakewebthings.com/waypoints/api/viewport-width */
+  Waypoint.viewportWidth = function() {
+    return document.documentElement.clientWidth
+  }
+
+  Waypoint.adapters = []
+
+  Waypoint.defaults = {
+    context: window,
+    continuous: true,
+    enabled: true,
+    group: 'default',
+    horizontal: false,
+    offset: 0
+  }
+
+  Waypoint.offsetAliases = {
+    'bottom-in-view': function() {
+      return this.context.innerHeight() - this.adapter.outerHeight()
+    },
+    'right-in-view': function() {
+      return this.context.innerWidth() - this.adapter.outerWidth()
+    }
+  }
+
+  window.Waypoint = Waypoint
+}())
+;(function() {
+  'use strict'
+
+  function requestAnimationFrameShim(callback) {
+    window.setTimeout(callback, 1000 / 60)
+  }
+
+  var keyCounter = 0
+  var contexts = {}
+  var Waypoint = window.Waypoint
+  var oldWindowLoad = window.onload
+
+  /* http://imakewebthings.com/waypoints/api/context */
+  function Context(element) {
+    this.element = element
+    this.Adapter = Waypoint.Adapter
+    this.adapter = new this.Adapter(element)
+    this.key = 'waypoint-context-' + keyCounter
+    this.didScroll = false
+    this.didResize = false
+    this.oldScroll = {
+      x: this.adapter.scrollLeft(),
+      y: this.adapter.scrollTop()
+    }
+    this.waypoints = {
+      vertical: {},
+      horizontal: {}
+    }
+
+    element.waypointContextKey = this.key
+    contexts[element.waypointContextKey] = this
+    keyCounter += 1
+
+    this.createThrottledScrollHandler()
+    this.createThrottledResizeHandler()
+  }
+
+  /* Private */
+  Context.prototype.add = function(waypoint) {
+    var axis = waypoint.options.horizontal ? 'horizontal' : 'vertical'
+    this.waypoints[axis][waypoint.key] = waypoint
+    this.refresh()
+  }
+
+  /* Private */
+  Context.prototype.checkEmpty = function() {
+    var horizontalEmpty = this.Adapter.isEmptyObject(this.waypoints.horizontal)
+    var verticalEmpty = this.Adapter.isEmptyObject(this.waypoints.vertical)
+    if (horizontalEmpty && verticalEmpty) {
+      this.adapter.off('.waypoints')
+      delete contexts[this.key]
+    }
+  }
+
+  /* Private */
+  Context.prototype.createThrottledResizeHandler = function() {
+    var self = this
+
+    function resizeHandler() {
+      self.handleResize()
+      self.didResize = false
+    }
+
+    this.adapter.on('resize.waypoints', function() {
+      if (!self.didResize) {
+        self.didResize = true
+        Waypoint.requestAnimationFrame(resizeHandler)
+      }
+    })
+  }
+
+  /* Private */
+  Context.prototype.createThrottledScrollHandler = function() {
+    var self = this
+    function scrollHandler() {
+      self.handleScroll()
+      self.didScroll = false
+    }
+
+    this.adapter.on('scroll.waypoints', function() {
+      if (!self.didScroll || Waypoint.isTouch) {
+        self.didScroll = true
+        Waypoint.requestAnimationFrame(scrollHandler)
+      }
+    })
+  }
+
+  /* Private */
+  Context.prototype.handleResize = function() {
+    Waypoint.Context.refreshAll()
+  }
+
+  /* Private */
+  Context.prototype.handleScroll = function() {
+    var triggeredGroups = {}
+    var axes = {
+      horizontal: {
+        newScroll: this.adapter.scrollLeft(),
+        oldScroll: this.oldScroll.x,
+        forward: 'right',
+        backward: 'left'
+      },
+      vertical: {
+        newScroll: this.adapter.scrollTop(),
+        oldScroll: this.oldScroll.y,
+        forward: 'down',
+        backward: 'up'
+      }
+    }
+
+    for (var axisKey in axes) {
+      var axis = axes[axisKey]
+      var isForward = axis.newScroll > axis.oldScroll
+      var direction = isForward ? axis.forward : axis.backward
+
+      for (var waypointKey in this.waypoints[axisKey]) {
+        var waypoint = this.waypoints[axisKey][waypointKey]
+        var wasBeforeTriggerPoint = axis.oldScroll < waypoint.triggerPoint
+        var nowAfterTriggerPoint = axis.newScroll >= waypoint.triggerPoint
+        var crossedForward = wasBeforeTriggerPoint && nowAfterTriggerPoint
+        var crossedBackward = !wasBeforeTriggerPoint && !nowAfterTriggerPoint
+        if (crossedForward || crossedBackward) {
+          waypoint.queueTrigger(direction)
+          triggeredGroups[waypoint.group.id] = waypoint.group
+        }
+      }
+    }
+
+    for (var groupKey in triggeredGroups) {
+      triggeredGroups[groupKey].flushTriggers()
+    }
+
+    this.oldScroll = {
+      x: axes.horizontal.newScroll,
+      y: axes.vertical.newScroll
+    }
+  }
+
+  /* Private */
+  Context.prototype.innerHeight = function() {
+    /*eslint-disable eqeqeq */
+    if (this.element == this.element.window) {
+      return Waypoint.viewportHeight()
+    }
+    /*eslint-enable eqeqeq */
+    return this.adapter.innerHeight()
+  }
+
+  /* Private */
+  Context.prototype.remove = function(waypoint) {
+    delete this.waypoints[waypoint.axis][waypoint.key]
+    this.checkEmpty()
+  }
+
+  /* Private */
+  Context.prototype.innerWidth = function() {
+    /*eslint-disable eqeqeq */
+    if (this.element == this.element.window) {
+      return Waypoint.viewportWidth()
+    }
+    /*eslint-enable eqeqeq */
+    return this.adapter.innerWidth()
+  }
+
+  /* Public */
+  /* http://imakewebthings.com/waypoints/api/context-destroy */
+  Context.prototype.destroy = function() {
+    var allWaypoints = []
+    for (var axis in this.waypoints) {
+      for (var waypointKey in this.waypoints[axis]) {
+        allWaypoints.push(this.waypoints[axis][waypointKey])
+      }
+    }
+    for (var i = 0, end = allWaypoints.length; i < end; i++) {
+      allWaypoints[i].destroy()
+    }
+  }
+
+  /* Public */
+  /* http://imakewebthings.com/waypoints/api/context-refresh */
+  Context.prototype.refresh = function() {
+    /*eslint-disable eqeqeq */
+    var isWindow = this.element == this.element.window
+    /*eslint-enable eqeqeq */
+    var contextOffset = this.adapter.offset()
+    var triggeredGroups = {}
+    var axes
+
+    this.handleScroll()
+    axes = {
+      horizontal: {
+        contextOffset: isWindow ? 0 : contextOffset.left,
+        contextScroll: isWindow ? 0 : this.oldScroll.x,
+        contextDimension: this.innerWidth(),
+        oldScroll: this.oldScroll.x,
+        forward: 'right',
+        backward: 'left',
+        offsetProp: 'left'
+      },
+      vertical: {
+        contextOffset: isWindow ? 0 : contextOffset.top,
+        contextScroll: isWindow ? 0 : this.oldScroll.y,
+        contextDimension: this.innerHeight(),
+        oldScroll: this.oldScroll.y,
+        forward: 'down',
+        backward: 'up',
+        offsetProp: 'top'
+      }
+    }
+
+    for (var axisKey in axes) {
+      var axis = axes[axisKey]
+      for (var waypointKey in this.waypoints[axisKey]) {
+        var waypoint = this.waypoints[axisKey][waypointKey]
+        var adjustment = waypoint.options.offset
+        var oldTriggerPoint = waypoint.triggerPoint
+        var elementOffset = 0
+        var freshWaypoint = oldTriggerPoint == null
+        var contextModifier, wasBeforeScroll, nowAfterScroll
+        var triggeredBackward, triggeredForward
+
+        if (waypoint.element !== waypoint.element.window) {
+          elementOffset = waypoint.adapter.offset()[axis.offsetProp]
+        }
+
+        if (typeof adjustment === 'function') {
+          adjustment = adjustment.apply(waypoint)
+        }
+        else if (typeof adjustment === 'string') {
+          adjustment = parseFloat(adjustment)
+          if (waypoint.options.offset.indexOf('%') > - 1) {
+            adjustment = Math.ceil(axis.contextDimension * adjustment / 100)
+          }
+        }
+
+        contextModifier = axis.contextScroll - axis.contextOffset
+        waypoint.triggerPoint = elementOffset + contextModifier - adjustment
+        wasBeforeScroll = oldTriggerPoint < axis.oldScroll
+        nowAfterScroll = waypoint.triggerPoint >= axis.oldScroll
+        triggeredBackward = wasBeforeScroll && nowAfterScroll
+        triggeredForward = !wasBeforeScroll && !nowAfterScroll
+
+        if (!freshWaypoint && triggeredBackward) {
+          waypoint.queueTrigger(axis.backward)
+          triggeredGroups[waypoint.group.id] = waypoint.group
+        }
+        else if (!freshWaypoint && triggeredForward) {
+          waypoint.queueTrigger(axis.forward)
+          triggeredGroups[waypoint.group.id] = waypoint.group
+        }
+        else if (freshWaypoint && axis.oldScroll >= waypoint.triggerPoint) {
+          waypoint.queueTrigger(axis.forward)
+          triggeredGroups[waypoint.group.id] = waypoint.group
+        }
+      }
+    }
+
+    for (var groupKey in triggeredGroups) {
+      triggeredGroups[groupKey].flushTriggers()
+    }
+
+    return this
+  }
+
+  /* Private */
+  Context.findOrCreateByElement = function(element) {
+    return Context.findByElement(element) || new Context(element)
+  }
+
+  /* Private */
+  Context.refreshAll = function() {
+    for (var contextId in contexts) {
+      contexts[contextId].refresh()
+    }
+  }
+
+  /* Public */
+  /* http://imakewebthings.com/waypoints/api/context-find-by-element */
+  Context.findByElement = function(element) {
+    return contexts[element.waypointContextKey]
+  }
+
+  window.onload = function() {
+    if (oldWindowLoad) {
+      oldWindowLoad()
+    }
+    Context.refreshAll()
+  }
+
+  Waypoint.requestAnimationFrame = function(callback) {
+    var requestFn = window.requestAnimationFrame ||
+      window.mozRequestAnimationFrame ||
+      window.webkitRequestAnimationFrame ||
+      requestAnimationFrameShim
+    requestFn.call(window, callback)
+  }
+  Waypoint.Context = Context
+}())
+;(function() {
+  'use strict'
+
+  function byTriggerPoint(a, b) {
+    return a.triggerPoint - b.triggerPoint
+  }
+
+  function byReverseTriggerPoint(a, b) {
+    return b.triggerPoint - a.triggerPoint
+  }
+
+  var groups = {
+    vertical: {},
+    horizontal: {}
+  }
+  var Waypoint = window.Waypoint
+
+  /* http://imakewebthings.com/waypoints/api/group */
+  function Group(options) {
+    this.name = options.name
+    this.axis = options.axis
+    this.id = this.name + '-' + this.axis
+    this.waypoints = []
+    this.clearTriggerQueues()
+    groups[this.axis][this.name] = this
+  }
+
+  /* Private */
+  Group.prototype.add = function(waypoint) {
+    this.waypoints.push(waypoint)
+  }
+
+  /* Private */
+  Group.prototype.clearTriggerQueues = function() {
+    this.triggerQueues = {
+      up: [],
+      down: [],
+      left: [],
+      right: []
+    }
+  }
+
+  /* Private */
+  Group.prototype.flushTriggers = function() {
+    for (var direction in this.triggerQueues) {
+      var waypoints = this.triggerQueues[direction]
+      var reverse = direction === 'up' || direction === 'left'
+      waypoints.sort(reverse ? byReverseTriggerPoint : byTriggerPoint)
+      for (var i = 0, end = waypoints.length; i < end; i += 1) {
+        var waypoint = waypoints[i]
+        if (waypoint.options.continuous || i === waypoints.length - 1) {
+          waypoint.trigger([direction])
+        }
+      }
+    }
+    this.clearTriggerQueues()
+  }
+
+  /* Private */
+  Group.prototype.next = function(waypoint) {
+    this.waypoints.sort(byTriggerPoint)
+    var index = Waypoint.Adapter.inArray(waypoint, this.waypoints)
+    var isLast = index === this.waypoints.length - 1
+    return isLast ? null : this.waypoints[index + 1]
+  }
+
+  /* Private */
+  Group.prototype.previous = function(waypoint) {
+    this.waypoints.sort(byTriggerPoint)
+    var index = Waypoint.Adapter.inArray(waypoint, this.waypoints)
+    return index ? this.waypoints[index - 1] : null
+  }
+
+  /* Private */
+  Group.prototype.queueTrigger = function(waypoint, direction) {
+    this.triggerQueues[direction].push(waypoint)
+  }
+
+  /* Private */
+  Group.prototype.remove = function(waypoint) {
+    var index = Waypoint.Adapter.inArray(waypoint, this.waypoints)
+    if (index > -1) {
+      this.waypoints.splice(index, 1)
+    }
+  }
+
+  /* Public */
+  /* http://imakewebthings.com/waypoints/api/first */
+  Group.prototype.first = function() {
+    return this.waypoints[0]
+  }
+
+  /* Public */
+  /* http://imakewebthings.com/waypoints/api/last */
+  Group.prototype.last = function() {
+    return this.waypoints[this.waypoints.length - 1]
+  }
+
+  /* Private */
+  Group.findOrCreate = function(options) {
+    return groups[options.axis][options.name] || new Group(options)
+  }
+
+  Waypoint.Group = Group
+}())
+;(function() {
+  'use strict'
+
+  var $ = window.jQuery
+  var Waypoint = window.Waypoint
+
+  function JQueryAdapter(element) {
+    this.$element = $(element)
+  }
+
+  $.each([
+    'innerHeight',
+    'innerWidth',
+    'off',
+    'offset',
+    'on',
+    'outerHeight',
+    'outerWidth',
+    'scrollLeft',
+    'scrollTop'
+  ], function(i, method) {
+    JQueryAdapter.prototype[method] = function() {
+      var args = Array.prototype.slice.call(arguments)
+      return this.$element[method].apply(this.$element, args)
+    }
+  })
+
+  $.each([
+    'extend',
+    'inArray',
+    'isEmptyObject'
+  ], function(i, method) {
+    JQueryAdapter[method] = $[method]
+  })
+
+  Waypoint.adapters.push({
+    name: 'jquery',
+    Adapter: JQueryAdapter
+  })
+  Waypoint.Adapter = JQueryAdapter
+}())
+;(function() {
+  'use strict'
+
+  var Waypoint = window.Waypoint
+
+  function createExtension(framework) {
+    return function() {
+      var waypoints = []
+      var overrides = arguments[0]
+
+      if (framework.isFunction(arguments[0])) {
+        overrides = framework.extend({}, arguments[1])
+        overrides.handler = arguments[0]
+      }
+
+      this.each(function() {
+        var options = framework.extend({}, overrides, {
+          element: this
+        })
+        if (typeof options.context === 'string') {
+          options.context = framework(this).closest(options.context)[0]
+        }
+        waypoints.push(new Waypoint(options))
+      })
+
+      return waypoints
+    }
+  }
+
+  if (window.jQuery) {
+    window.jQuery.fn.waypoint = createExtension(window.jQuery)
+  }
+  if (window.Zepto) {
+    window.Zepto.fn.waypoint = createExtension(window.Zepto)
+  }
+}())
+;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!
+Waypoints Sticky Element Shortcut - 3.1.1
+Copyright © 2011-2015 Caleb Troughton
+Licensed under the MIT license.
+https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
+*/
+(function() {
+  'use strict'
+
+  var $ = window.jQuery
+  var Waypoint = window.Waypoint
+
+  /* http://imakewebthings.com/waypoints/shortcuts/sticky-elements */
+  function Sticky(options) {
+    this.options = $.extend({}, Waypoint.defaults, Sticky.defaults, options)
+    this.element = this.options.element
+    this.$element = $(this.element)
+    this.createWrapper()
+    this.createWaypoint()
+  }
+
+  /* Private */
+  Sticky.prototype.createWaypoint = function() {
+    var originalHandler = this.options.handler
+
+    this.waypoint = new Waypoint($.extend({}, this.options, {
+      element: this.wrapper,
+      handler: $.proxy(function(direction) {
+        var shouldBeStuck = this.options.direction.indexOf(direction) > -1
+        var wrapperHeight = shouldBeStuck ? this.$element.outerHeight(true) : ''
+
+        this.$wrapper.height(wrapperHeight)
+        this.$element.toggleClass(this.options.stuckClass, shouldBeStuck)
+
+        if (originalHandler) {
+          originalHandler.call(this, direction)
+        }
+      }, this)
+    }))
+  }
+
+  /* Private */
+  Sticky.prototype.createWrapper = function() {
+    this.$element.wrap(this.options.wrapper)
+    this.$wrapper = this.$element.parent()
+    this.wrapper = this.$wrapper[0]
+  }
+
+  /* Public */
+  Sticky.prototype.destroy = function() {
+    if (this.$element.parent()[0] === this.wrapper) {
+      this.waypoint.destroy()
+      this.$element.removeClass(this.options.stuckClass).unwrap()
+    }
+  }
+
+  Sticky.defaults = {
+    wrapper: '<div class="sticky-wrapper" />',
+    stuckClass: 'stuck',
+    direction: 'down right'
+  }
+
+  Waypoint.Sticky = Sticky
+}())
+
+
+
+
+
+
+/* ]]> */
+</script>x
+
+		<!-- FC footer script insertion -->{% include template_from_string(fc_footer_content) %}<!-- /FC footer scripts -->
+
+		</body>
+	</html>
