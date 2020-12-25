@@ -1,6 +1,5 @@
 .DS_Store
-cachebusted/
-dist/
+build/
 images/
 node_modules/
 # Wordpress ecomm pages stored in a separate repo for now
