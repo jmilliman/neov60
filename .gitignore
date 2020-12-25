@@ -2,7 +2,7 @@
 build/
 images/
 node_modules/
-# Wordpress ecomm pages stored in a separate repo for now
+# Wordpress ecomm pages maintained in a separate repo for now
 wp/
 predeploy-backup/
 maps/
